@@ -356,4 +356,50 @@ next.addEventListener('click',()=>{const currentInputs=[...steps[current].queryS
 document.querySelectorAll('.biz-topic').forEach(a=>a.addEventListener('click',()=>{const t=a.dataset.topic;const hints={reportes:'Necesito automatizar la preparación de reportes',datos:'Necesito consolidar y analizar datos de varias fuentes',seguimiento:'Quiero hacer seguimiento de actividades e indicadores'};document.getElementById('bizActivity').value=hints[t]||'';}));
 })();
 </script>
+  
+<!-- SECCION PROTOTIPO HIDRAULICO DANIELTECH -->
+<section id="prototipo-hidraulico" style="
+  margin: 50px auto;
+  padding: 35px 20px;
+  max-width: 1200px;
+  color: #f2f8ff;
+  background: linear-gradient(135deg,#071a34,#031020);
+  border: 1px solid rgba(21,208,255,.35);
+  border-radius: 22px;
+  text-align: center;
+">
+  <p style="color:#15d9fc;letter-spacing:3px;font-weight:bold;">
+    PORTAFOLIO DANIELTECH
+  </p>
+
+  <h2 style="font-size:clamp(25px,4vw,38px);">
+    Prototipo hidráulico 3D
+  </h2>
+
+  <p style="color:#b3c7e4;">
+    Explora el modelo tridimensional e interactúa con sus componentes.
+  </p>
+
+  <model-viewer
+    src="https://github.com/JoseDanielAutomatiza/danieltech/releases/download/v1.0-modelo3d/MODEL2.glb"
+    alt="Modelo 3D del prototipo hidráulico"
+    camera-controls
+    auto-rotate
+    shadow-intensity="1"
+    exposure="1.1"
+    environment-image="neutral"
+    style="
+      width:100%;
+      height:600px;
+      background:#061426;
+      border-radius:16px;
+    ">
+  </model-viewer>
+</section>
+
+<script type="module"
+  src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+</script>
+<!-- FIN SECCION PROTOTIPO -->
+
 </body></html>
