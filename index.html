@@ -380,6 +380,11 @@ document.querySelectorAll('.biz-topic').forEach(a=>a.addEventListener('click',()
     Explora el modelo tridimensional e interactúa con sus componentes.
   </p>
 
+  <div class="prototype-description" style="margin:20px auto 0;padding:20px 24px;max-width:900px;text-align:left;background:rgba(5,26,50,.72);border:1px solid rgba(21,208,255,.28);border-radius:14px">
+    <h3 style="margin:0 0 8px;color:#75eaff;font-size:clamp(19px,3vw,25px)">Sistema hidráulico modular — prototipo 3D</h3>
+    <p style="margin:0;color:#c4d8ed;line-height:1.7">Representación tridimensional de un prototipo hidráulico con recipientes, tuberías y conexiones sobre una estructura de soporte. Explora el conjunto desde distintos ángulos para observar la disposición de sus componentes.</p>
+  </div>
+
   <div class="model-frame">
     <div id="modelStatus" class="model-status" role="status" aria-live="polite">Cargando modelo 3D…</div>
     <div id="modelError" class="model-error" role="alert" hidden>No se pudo cargar el modelo.
@@ -390,10 +395,7 @@ document.querySelectorAll('.biz-topic').forEach(a=>a.addEventListener('click',()
       loading="eager" reveal="auto" style="display:block;width:100%;height:clamp(340px,62vw,600px);min-height:340px;background:#061426;border-radius:16px">
     </model-viewer>
   </div>
-  <div class="prototype-description" style="margin:20px auto 0;padding:20px 24px;max-width:900px;text-align:left;background:rgba(5,26,50,.72);border:1px solid rgba(21,208,255,.28);border-radius:14px">
-    <h3 style="margin:0 0 8px;color:#75eaff;font-size:clamp(19px,3vw,25px)">Sistema hidráulico modular — prototipo 3D</h3>
-    <p style="margin:0;color:#c4d8ed;line-height:1.7">Representación tridimensional de un prototipo hidráulico con recipientes, tuberías y conexiones sobre una estructura de soporte. Explora el conjunto desde distintos ángulos para observar la disposición de sus componentes.</p>
-  </div>
+  
 </section>
 <style>
 #prototipo-hidraulico .model-frame{position:relative;overflow:hidden;border:1px solid rgba(21,208,255,.25);border-radius:16px;background:#061426}
